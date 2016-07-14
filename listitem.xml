@@ -1,0 +1,36 @@
+*//a item  xml in listview
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:text="Fatih"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/shapetext"
+        android:padding="10dp"
+
+        android:textSize="16sp" />
+
+
+    <RadioGroup
+        android:id="@+id/radio_group1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/heading"
+        android:layout_gravity="center_horizontal"
+        android:background="#ffeef6ff"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical" />
+
+
+
+
+
+</RelativeLayout>
