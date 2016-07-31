@@ -7,6 +7,7 @@
 #####SurveyAdapter.java   : ListView Adapter class
 #####listitem.xml         : a item's xml in listview
 #####surveyscren.xml      : listview(surveyscreen) xml
+Dynamic Survey using listview , creating dynamic view objcets(radiobutton ,textview) and handle them on listview.
 
 *****************************************************************************************************************************
 
